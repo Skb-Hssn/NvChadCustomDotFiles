@@ -67,3 +67,5 @@ vim.cmd([[
 
     augroup END
 ]])
+
+vim.g.lua_snippets_path = vim.fn.stdpath "config" .. "/lua/custom/snippets/luasnip.lua"
